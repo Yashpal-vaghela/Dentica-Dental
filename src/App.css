@@ -38,12 +38,11 @@
 }
 
 
-
 .social-media-container{
   margin-bottom: 100px;
 }
 .social-media-title{
-  font-size:30px;
+  font-size:28px;
   font-family: Saira, sans-serif;
   font-weight:600;
   color:rgba(18, 68, 139, 1);
@@ -96,11 +95,11 @@
   box-shadow: 0px 0px 34px 0px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   padding: 0px 20px;
-  max-width:40%
+  /* max-width:40% */
 }
 .communication-wrapper{
   border-bottom: 2px solid rgba(202, 98, 157, 0.2);
-  padding: 18px 0px; 
+  padding: 18px 0px;
 }
 .communication-wrapper:last-child{
   border: none;
@@ -162,11 +161,81 @@
   background-color: rgba(202, 98, 157, 0.5);
   padding: 5px;
   border-radius: 15px;
-  font-size: 14px;
+  font-size: 16px;
 }
 @media(min-width:1200px){
   .social-media-container{
     max-width: 820px;
-    
+  }
+  .communication-secation .col-lg-6:first-child{
+    max-width: 40%;
+  }
+}
+@media(max-width:991px){
+  .social-media-container{
+    margin-bottom: 80px;
+  }
+  .communication-title{
+    font-size: 32px;
+    top:-4%;
+  }
+  .communication-secation{
+    padding: 60px;
+  }
+  .communication-content-2 h2{
+    top:-10%;
+    margin-bottom: 0px;
+  }
+  .communication-secation {
+    margin-bottom: 80px !important;
+  }
+  .communication-content-2:nth-child(2) h2{
+    top: -6.5%;
+  }
+}
+@media(max-width:767px){
+  .communication-title{
+    font-size: 30px;
+  }
+  .communication-secation{
+    padding: 40px;
+  }
+  .communication-content-2 h2{
+    left:19.5%;
+    right:19.5%;
+    font-size: 16px;
+  }
+  .communication-content-2:nth-child(2) h2{
+    top: -10.5%;
+  }
+}
+@media(max-width:576px){
+  .communication-title{
+    font-size: 26px;
+    top:0%;
+    left:0%;
+    position: relative;
+    margin-bottom: 25px !important;
+    text-align: center;
+  }
+  .communication-secation{
+    padding: 20px 30px;
+  }
+  .communication-content-2:nth-child(2) h2{
+    top:0%;
+    position: relative;
+    left:0%;
+    right:0%;
+  }
+  .communication-secation .row{
+    gap:30px;
+  }
+  .communication-info{
+    padding: 8px;
+    width:100%;
+  }
+  .communication-info span{
+    padding: 0px 5px;
+    font-size: 12px;
   }
 }

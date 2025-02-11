@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import axios from "axios";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Container } from "react-bootstrap";
 
 const Blog = () => {
   const [blogData, setBlogData] = useState([]);
@@ -59,6 +60,7 @@ const Blog = () => {
             </div>
           </div>
         </div>
+        <Container>
         <div
           className="blog-page-data"
           style={{ display: "flex", gap: "20px" }}
@@ -90,6 +92,7 @@ const Blog = () => {
               </div>
             ))}
         </div>
+        </Container>
       </div>
     </div>
   );

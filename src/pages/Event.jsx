@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import axios from "axios";
+import { Container } from "react-bootstrap";
 
 const Event = () => {
   // const [loading, setLoading] = useState(true);
@@ -50,6 +51,8 @@ const Event = () => {
             </div>
           </div>
         </div>
+
+        <Container>
         <div className="event-page-content-main" style={{ display: "flex" }}>
           {eventCat.map((ele) => (
             <div className="blog-page-data-sub event-page-data-sub">
@@ -66,6 +69,7 @@ const Event = () => {
             </div>
           ))}
         </div>
+        </Container>
       </div>
     </div>
   );

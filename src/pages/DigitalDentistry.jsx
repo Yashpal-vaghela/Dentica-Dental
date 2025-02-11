@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { Container } from "react-bootstrap";
 import Lightbox from "react-image-lightbox";
 import "react-image-lightbox/style.css";
 import "../css/style.css";
@@ -108,6 +109,7 @@ const DigitalDentistry = () => {
             </div>
           </div>
         </div>
+        <Container>
         <div className="dent-page-content" style={{ position: "relative", overflow: "hidden" }}>
           <div className="implant-content-p1">
             <div className="implant-p1-img">
@@ -189,6 +191,7 @@ const DigitalDentistry = () => {
             </div>
           </div>
         </div>
+        </Container>
       </div>
       {lightboxOpen && (
         <Lightbox

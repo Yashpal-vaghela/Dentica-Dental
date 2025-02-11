@@ -1309,6 +1309,11 @@ textarea {
   background-color: #12448b;
 }
 
+.footer-outContainer {
+  background-color: #12448b;
+  width: 100%;
+}
+
 .main-footer-p1 {
   display: flex;
   width: 65%;
@@ -1343,7 +1348,7 @@ textarea {
   margin: 5px 0;
 }
 
-.main-footer-p1-content a:hover p {
+.main-footer-p1-content a:hover p,  li:hover, footer-cont-icon:hover  {
   color: #ca629d;
   /* Change the color to whatever you want */
   transition: all 0.5s ease-in-out 0s;
@@ -1356,6 +1361,16 @@ textarea {
 }
 
 .footer-num a:hover p span {
+  color: #ca629d;
+  /* Change the color to whatever you want */
+  transition: all 0.5s ease-in-out 0s;
+}
+.footer-cont-icon {
+  color: white;
+  padding-bottom: 6px;
+}
+
+.footer-cont-icon:hover {
   color: #ca629d;
   /* Change the color to whatever you want */
   transition: all 0.5s ease-in-out 0s;
@@ -1478,6 +1493,7 @@ textarea {
   display: flex;
   align-items: baseline;
 }
+
 
 /* About Page */
 

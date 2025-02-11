@@ -4,6 +4,7 @@ import { FaMagnifyingGlassPlus } from "react-icons/fa6";
 import Lightbox from "react-image-lightbox";
 import "aos/dist/aos.css";
 import axios from "axios";
+import { Container } from "react-bootstrap";
 
 const SubProducts = () => {
   const [images, setImages] = useState([]);
@@ -122,6 +123,7 @@ const SubProducts = () => {
               </div>
             </div>
           </div>
+          <Container>
           <div className="implant-content-main">
             <div className="implant-content-p1">
               <div className="implant-p1-img">
@@ -194,6 +196,7 @@ const SubProducts = () => {
               </div>
             </div>
           </div>
+          </Container>
         </div>
       </div>
     </div>

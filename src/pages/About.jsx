@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import axios from "axios";
+import { Container } from "react-bootstrap";
 
 const About = () => {
   // const [loading, setLoading] = useState(true);
@@ -58,6 +59,7 @@ const About = () => {
             </div>
           </div>
         </div>
+        <Container>
         <div className="about-page-content">
           {aboutData.map((ele) => (
             <div className="about-p1 about-page-p1-main">
@@ -101,6 +103,7 @@ const About = () => {
             </div>
           ))}
         </div>
+        </Container>
       </div>
     </div>
   );

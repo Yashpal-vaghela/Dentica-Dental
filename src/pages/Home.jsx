@@ -10,6 +10,7 @@ import { FaPhone } from "react-icons/fa6";
 import { FaBook } from "react-icons/fa";
 import { FaTextWidth } from "react-icons/fa";
 import Lightbox from 'react-image-lightbox';
+import { Container } from "react-bootstrap";
 
 // Import Swiper styles
 import "swiper/css";
@@ -215,6 +216,7 @@ const Home = () => {
             </div>
           </div>
         </section>
+        <Container>
         {/* about section started */}
         <section className="about-section">
           <div className="about-sub">
@@ -345,10 +347,12 @@ const Home = () => {
             </div>
           </div>
         </section>
+        </Container>
         {/* Digital Dentristry Started */}
         <section className="home-dent-section">
           <div className="home-dent-main">
             <div className="home-dent-sub" style={{ overflow: "hidden" }}>
+            
               <div
                 className="dent-image-column"
                 data-aos="fade-left"
@@ -392,9 +396,12 @@ const Home = () => {
                   </p>
                 </div>
               </div>
+             
             </div>
           </div>
         </section>
+
+        
         {/* Product section started */}
         <section
           className="home-product-section"
@@ -553,6 +560,8 @@ const Home = () => {
             </div>
           </div>
         </section>
+
+
         {/* Gallery section started */}
         <section
           className="home-gallery-section"
@@ -563,7 +572,9 @@ const Home = () => {
                    display: galleryData && galleryData.length > 0 ? "block" : "none", 
            }}
         >
+          
           <div className="home-gallary-main">
+          <Container>
             <div className="home-gallary-sub">
               <div className="home-gallary-head">
                 <div className="home-gallary-txt">
@@ -670,7 +681,9 @@ const Home = () => {
                 </div>
               </div>
             </div>
+            </Container>
           </div>
+          
           {lightboxOpen && (
             <Lightbox
               mainSrc={galleryData[selectedImageIndex].image}

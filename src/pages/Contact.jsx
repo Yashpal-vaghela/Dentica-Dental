@@ -13,6 +13,7 @@ import Swal from "sweetalert2";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Container } from "react-bootstrap";
 
 const Contact = () => {
   // const [submitButton, setSubmitButton] = useState(true);
@@ -142,6 +143,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
+        <Container>
         <div className="contact-page-data-main">
           <div className="contact-page-data-sub">
             <div className="contact-page-touch-section">
@@ -161,8 +163,8 @@ const Contact = () => {
                   </div>
                   <div className="contact-page-icon-txt">
                     <p>
-                      Plot No. 3/3-3/4, Dhuna House, opp. <br /> Patel Nagar,
-                      Varachha, Surat, Gujarat <br /> 395008
+                      Plot no 1-8, Marutidham Industrial Estate, <br /> Velanja - Gothan Rd, Behind hotel royal, 
+                      <br /> Surat, Gujarat-394130
                     </p>
                     <h5 className="contact-icon-a">
                       <Link
@@ -356,6 +358,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
+        </Container>
       </div>
     </div>
   );

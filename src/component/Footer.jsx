@@ -7,9 +7,10 @@ import insta from "../img/instagra.png";
 import { FaPhoneAlt } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import axios from "axios";
+import { IoMail } from "react-icons/io5";
 
 const Footer = () => {
-  const [scrolled, setScrolled] = useState(false);
+  // const [scrolled, setScrolled] = useState(false);
 
   let [productData, setProductData] = useState([]);
 
@@ -31,9 +32,9 @@ const Footer = () => {
     axios
       .get(`https://denticadentalstudio.com/webapp/api/abouts`)
       .then((res) => {
-        console.log(res.data.data.about);
+        // console.log(res.data.data.about);
         setAboutData(res.data.data.about);
-        console.log(aboutData);
+        // console.log(aboutData);
       })
       .catch((err) => {
         console.log(err);
@@ -64,6 +65,9 @@ const Footer = () => {
                     </Link>
                   </div>
                 ))}
+              <Link to="/digital-dentistry" onClick={handleNavClick}>
+                <p>Digital-dentistry</p>
+              </Link>
             </div>
             <div className="main-footer-p1-content">
               <h1>Useful Links</h1>
@@ -86,13 +90,14 @@ const Footer = () => {
               <Link to="/gallery" onClick={handleNavClick}>
                 <p>Gallery</p>
               </Link>
-              <Link to="/digital-dentistry" onClick={handleNavClick}>
-                <p>Digital-dentistry</p>
+              <Link to="//terms-and-condition" onClick={handleNavClick}>
+                <p>Terms & Conditions</p>
               </Link>
+              
             </div>
             {aboutData.map((ele) => (
               <div className="main-footer-p1-content">
-                <h1>Lab Opening Hrs</h1>
+                <h1>Lab Opening Hours</h1>
                 <hr className="footer-hr" />
                 <h3>
                   Mon-Saturday: <br />
@@ -111,11 +116,15 @@ const Footer = () => {
               <hr className="footer-hr" />
               <div className="footer-add">
                 <h3>Our Location :</h3>
-                <p>{ele.address}</p>
+                <p> Plot no 1-8, Marutidham Industrial Estate, Velanja - Gothan Rd, Behind hotel royal, Umra, Gujarat 394130</p>
               </div>
               <div className="footer-num">
                 <a href="mailto:info@dentco.net">
-                  <p>Email : {ele.email}</p>
+                  <p className="footer-cont-icon">
+                    <span style={{ fontSize:"1.5rem",}}>
+                      <IoMail />
+                    </span> {ele.email}
+                  </p>
                 </a>
                 <a href="tel:+918530101701">
                   <p className="footer-cont-icon">
@@ -171,13 +180,13 @@ const Footer = () => {
           </div>
           <div className="low-footer-txt">
             <p>
-              © 2024
+              © 2025
               <span>
                 <Link to="/" onClick={handleNavClick}>
-                  Dentica Dental Studio
+                  Dentica Dental Studio.
                 </Link>
               </span>
-              Dentica Dental Studio
+              All Rights Reserved
             </p>
           </div>
         </div>

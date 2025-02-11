@@ -119,7 +119,7 @@ const Nav = () => {
               <span>
                 <FaLocationDot />
               </span>
-              <p>Patel Nagar, Varachha, Surat, Gujarat 395008</p>
+              <p> Velanja Road, Umra, Surat - 394130</p>
             </div>
             <div className="top-nav-email">
               <span>

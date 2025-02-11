@@ -46,6 +46,7 @@ import AdminEvent from "../pages/AdminEvent.jsx";
 import AdminEventAdd from "../pages/AdminEventAdd.jsx";
 import AdminEventEdit from "../pages/AdminEventEdit.jsx";
 import ProtectedRoute from "./ProtectedRoute.jsx";
+import TermsConditions from "../pages/TermsConditions.jsx"
 
 const AllRoutes = () => {
   return (
@@ -68,6 +69,7 @@ const AllRoutes = () => {
         <Route path="/quick-Links" element={<Socialmedia />} />
         <Route path="*" element={<NotFound/>}/>
         <Route path="/admin" element={<Login />} />
+        <Route path="/terms-and-condition" element={<TermsConditions />} />
         {/* admin-routes */}
         <Route path="/admin/dashboard" element={<ProtectedRoute element={<Dashboard/>}/>} />
         <Route path="/admin/home" element={<ProtectedRoute element={<Adminhome/>} />} />

@@ -1,0 +1,18 @@
+.maintc {
+    text-align: left;
+}
+
+.tacHeading {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.tacTitle {
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.tacupdate {
+    padding-bottom: 40px !important;
+}

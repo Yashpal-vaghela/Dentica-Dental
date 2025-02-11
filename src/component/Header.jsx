@@ -47,42 +47,42 @@ const Header = () => {
   };
   return (
     <div>
-      <nav class="main-header navbar navbar-expand navbar-white navbar-light"
+      <nav className="main-header navbar navbar-expand navbar-white navbar-light"
         style={{ zIndex: 1000 }}
       >
 
         {/* <!-- Left navbar links --> */}
-        <ul class="navbar-nav">
-          <li class="nav-item">
+        <ul className="navbar-nav">
+          <li className="nav-item">
             <a
-              class="nav-link"
+              className="nav-link"
               data-widget="pushmenu"
               href="#"
               role="button"
               onClick={toggleMenu}
             >
-              <i class="fas fa-bars"></i>
+              <i className="fas fa-bars"></i>
             </a>
           </li>
         </ul>
 
         {/* <!-- Right navbar links --> */}
-        <ul class="navbar-nav ml-auto">
+        <ul className="navbar-nav ml-auto">
           {/* <!-- Notifications Dropdown Menu --> */}
-          <li class="nav-item dropdown">
-            <a class="nav-link" data-toggle="dropdown" href="#">
-              <i class="">
+          <li className="nav-item dropdown">
+            <a className="nav-link" data-toggle="dropdown" href="#">
+              <i className="">
                 <FaPowerOff />
               </i>
             </a>
-            <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
-              <span class="dropdown-item dropdown-header">
+            <div className="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+              <span className="dropdown-item dropdown-header">
                 Confirm Log out !
               </span>
-              {/* <div class="dropdown-divider"></div> */}
+              {/* <div className="dropdown-divider"></div> */}
               <a
                 href="/admin"
-                class="dropdown-item dropdown-footer"
+                className="dropdown-item dropdown-footer"
                 onClick={handleLogout}>
                 Log Out !
               </a>

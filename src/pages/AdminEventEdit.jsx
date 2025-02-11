@@ -135,21 +135,21 @@ const AdminEventEdit = () => {
           </div>
         </div>
       )}
-      <div class="wrapper">
-        <div class="content-wrapper">
-          <section class="content-header">
-            <div class="container-fluid">
-              <div class="row mb-2">
-                <div class="col-sm-6 text-left">
+      <div className="wrapper">
+        <div className="content-wrapper">
+          <section className="content-header">
+            <div className="container-fluid">
+              <div className="row mb-2">
+                <div className="col-sm-6 text-left">
                   <h1>Events</h1>
                 </div>
-                <div class="col-sm-6">
-                  <ol class="breadcrumb float-sm-right">
-                    <li class="breadcrumb-item">
+                <div className="col-sm-6">
+                  <ol className="breadcrumb float-sm-right">
+                    <li className="breadcrumb-item">
                       <Link to="/admin/event">Events</Link>
                     </li>
                     <li
-                      class="breadcrumb-item active"
+                      className="breadcrumb-item active"
                       style={{ color: "#ca629d" }}
                     >
                       Edit
@@ -160,20 +160,20 @@ const AdminEventEdit = () => {
             </div>
           </section>
 
-          <section class="content">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="card card-primary">
+          <section className="content">
+            <div className="container-fluid">
+              <div className="row">
+                <div className="col-md-12">
+                  <div className="card card-primary">
                     <div
-                      class="card-header"
+                      className="card-header"
                       style={{ backgroundColor: "#256f98" }}
                     >
-                      <h3 class="card-title">Edit Events</h3>
+                      <h3 className="card-title">Edit Events</h3>
                     </div>
                     <form className="text-left" onSubmit={handleSubmit}>
-                      <div class="card-body">
-                        <div class="form-group">
+                      <div className="card-body">
+                        <div className="form-group">
                           <label for="exampleInputPassword1">
                             Category <span style={{ color: "red" }}>*</span>
                           </label>
@@ -192,12 +192,12 @@ const AdminEventEdit = () => {
                             ))}
                           </select>
                         </div>
-                        <div class="form-group">
+                        <div className="form-group">
                           <label for="exampleInputFile">
                             Image <span style={{ color: "red" }}>*</span>
                           </label>
-                          <div class="input-group">
-                            <div class="custom-file">
+                          <div className="input-group">
+                            <div className="custom-file">
                               <input
                                 type="file"
                                 name="image"
@@ -224,13 +224,13 @@ const AdminEventEdit = () => {
                             )}
                         </div>
 
-                        <div class="form-group">
+                        <div className="form-group">
                           <label for="exampleInputFile">
                             Image Dimension{" "}
                             <span style={{ color: "red" }}>*</span>
                           </label>
-                          <div class="input-group">
-                            <div class="custom-file" style={{ gap: "20px" }}>
+                          <div className="input-group">
+                            <div className="custom-file" style={{ gap: "20px" }}>
                               <div className="radio-1 d-flex">
                                 <input
                                   type="radio"
@@ -269,10 +269,10 @@ const AdminEventEdit = () => {
                         </div>
                       </div>
 
-                      <div class="card-footer">
+                      <div className="card-footer">
                         <button
                           type="submit"
-                          class="btn btn-primary text-light border-0 form-dlt-btn"
+                          className="btn btn-primary text-light border-0 form-dlt-btn"
                           style={{ backgroundColor: "#ca629d" }}
                         >
                           Submit

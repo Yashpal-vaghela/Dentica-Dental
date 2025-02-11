@@ -91,23 +91,23 @@ const AdminMetaEdit = () => {
           </div>
         </div>
       )}
-      <div class="wrapper">
+      <div className="wrapper">
         {/* Content Wrapper. Contains page content */}
-        <div class="content-wrapper">
+        <div className="content-wrapper">
           {/* Content Header (Page header) */}
-          <section class="content-header">
-            <div class="container-fluid">
-              <div class="row mb-2">
-                <div class="col-sm-6 text-left">
+          <section className="content-header">
+            <div className="container-fluid">
+              <div className="row mb-2">
+                <div className="col-sm-6 text-left">
                   <h1>Meta Form</h1>
                 </div>
-                <div class="col-sm-6">
-                  <ol class="breadcrumb float-sm-right">
-                    <li class="breadcrumb-item">
+                <div className="col-sm-6">
+                  <ol className="breadcrumb float-sm-right">
+                    <li className="breadcrumb-item">
                       <Link to="/admin/Meta">Meta</Link>
                     </li>
                     <li
-                      class="breadcrumb-item active"
+                      className="breadcrumb-item active"
                       style={{ color: "#ca629d" }}
                     >
                       Edit
@@ -120,28 +120,28 @@ const AdminMetaEdit = () => {
           </section>
 
           {/* Main content */}
-          <section class="content">
-            <div class="container-fluid">
-              <div class="row">
+          <section className="content">
+            <div className="container-fluid">
+              <div className="row">
                 {/* left column */}
-                <div class="col-md-4">
+                <div className="col-md-4">
                   {/* general form elements */}
-                  <div class="card card-primary">
+                  <div className="card card-primary">
                     <div
-                      class="card-header"
+                      className="card-header"
                       style={{ backgroundColor: "#256f98" }}
                     >
-                      <h3 class="card-title">Edit Meta data</h3>
+                      <h3 className="card-title">Edit Meta data</h3>
                     </div>
                     {/* /.card-header */}
                     {/* form start */}
                     <form className="text-left" onSubmit={handleSubmit}>
-                      <div class="card-body">
-                        <div class="form-group">
+                      <div className="card-body">
+                        <div className="form-group">
                           <label for="exampleInputEmail1">Meta Url</label>
                           <input
                             type="text"
-                            class="form-control"
+                            className="form-control"
                             id="exampleInputEmail1"
                             placeholder="Title"
                             name="meta_url"
@@ -149,11 +149,11 @@ const AdminMetaEdit = () => {
                             value={metaData.meta_url}
                           />
                         </div>
-                        <div class="form-group">
+                        <div className="form-group">
                           <label for="exampleInputPassword1">Meta Title</label>
                           <input
                             type="text"
-                            class="form-control"
+                            className="form-control"
                             id="exampleInputPassword1"
                             placeholder="Meta Title"
                             name="meta_title"
@@ -161,13 +161,13 @@ const AdminMetaEdit = () => {
                             value={metaData.meta_title}
                           />
                         </div>
-                        <div class="form-group">
+                        <div className="form-group">
                           <label for="exampleInputPassword1">
                             Meta Keyword
                           </label>
                           <input
                             type="text"
-                            class="form-control"
+                            className="form-control"
                             id="exampleInputPassword1"
                             placeholder="Meta Keyword"
                             name="meta_keyword"
@@ -175,10 +175,10 @@ const AdminMetaEdit = () => {
                             value={metaData.meta_keyword}
                           />
                         </div>
-                        <div class="form-group">
+                        <div className="form-group">
                           <label>Meta Description</label>
                           <textarea
-                            class="form-control"
+                            className="form-control"
                             rows="3"
                             placeholder="Enter ..."
                             name="meta_description"
@@ -189,10 +189,10 @@ const AdminMetaEdit = () => {
                       </div>
                       {/* /.card-body */}
 
-                      <div class="card-footer">
+                      <div className="card-footer">
                         <button
                           type="submit"
-                          class="btn btn-primary text-light border-0 form-dlt-btn"
+                          className="btn btn-primary text-light border-0 form-dlt-btn"
                           style={{ backgroundColor: "#ca629d" }}
                         >
                           Submit

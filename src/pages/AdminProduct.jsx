@@ -250,10 +250,10 @@ const AdminProduct = () => {
                     </div>
                     {/* <!-- /.card-header --> */}
                     <div className="table-container">
-                      <div class="card-body">
+                      <div clasName="card-body">
                         <table
                           id="example2"
-                          class="table table-bordered table-hover"
+                          className="table table-bordered table-hover"
                         >
                           <thead>
                             <tr>

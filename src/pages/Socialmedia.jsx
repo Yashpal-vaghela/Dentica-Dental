@@ -53,74 +53,69 @@ const Socialmedia = () => {
     <div>
       <div className="social-media-container container mt-5">
         <h1 className="social-media-title">Social Media</h1>
-        <div className="row my-4 social-media-content">
-          <div
-            className="col-lg-3 col-md-3 col-sm-3 col-4 p-4"
+        <div className="row justify-content-center align-items-center g-3 social-media-content">
+          <a
+            className="col-lg-2 col-md-3 col-sm-4 col-4 text-center p-3"
             style={{
-              "background-color": "#fff",
+              backgroundColor: "#fff",
               borderRadius: "8px",
               boxShadow: "0px 0px 34px 0px rgba(0, 0, 0, 0.1)",
             }}
+            href="https://www.facebook.com/denticadental.dental?mibextid=ZbWKwL"
+            target="_blank"
           >
-            <img src="/dist/img/facebook.svg" className="img-fluid my-1"></img>
+            <img src="/dist/img/facebook.svg" className="img-fluid my-1" style={{ width: "50px" }} alt="Facebook" />
             <h2 className="social-media-subtitle mb-0">Facebook</h2>
-          </div>
+          </a>
+
           <div
-            className="col-lg-3 col-md-3 col-sm-3 col-4 p-4"
+            className="col-lg-2 col-md-3 col-sm-4 col-4 text-center p-3"
             style={{
-              "background-color": "#fff",
+              backgroundColor: "#fff",
               borderRadius: "8px",
               boxShadow: "0px 0px 34px 0px rgba(0, 0, 0, 0.1)",
             }}
           >
-            <img src="/dist/img/linkedin.svg" className="img-fluid my-1"></img>
-            <h2 className="social-media-subtitle mb-0">Linkdin</h2>
-          </div>
-          <div
-            className="col-lg-3 col-md-3 col-sm-3 col-4 p-4"
-            style={{
-              "background-color": "#fff",
-              borderRadius: "8px",
-              boxShadow: "0px 0px 34px 0px rgba(0, 0, 0, 0.1)",
-            }}
-          >
-            <img src="/dist/img/instrgram.svg" className="img-fluid my-1"></img>
+            <img src="/dist/img/instrgram.svg" className="img-fluid my-1" style={{ width: "50px" }} alt="Instagram" />
             <h2 className="social-media-subtitle mb-0">Instagram</h2>
           </div>
+
           <div
-            className="col-lg-3 col-md-3 col-sm-3 col-4 p-4"
+            className="col-lg-2 col-md-3 col-sm-4 col-4 text-center p-3"
             style={{
-              "background-color": "#fff",
+              backgroundColor: "#fff",
               borderRadius: "8px",
               boxShadow: "0px 0px 34px 0px rgba(0, 0, 0, 0.1)",
             }}
           >
-            <img src="/dist/img/call.svg" className="img-fluid my-1"></img>
+            <img src="/dist/img/call.svg" className="img-fluid my-1" style={{ width: "50px" }} alt="Phone" />
             <h2 className="social-media-subtitle mb-0">Phone</h2>
           </div>
+
           <div
-            className="col-lg-3 col-md-3 col-sm-3 col-4 p-4"
+            className="col-lg-2 col-md-3 col-sm-4 col-4 text-center p-3"
             style={{
-              "background-color": "#fff",
+              backgroundColor: "#fff",
               borderRadius: "8px",
               boxShadow: "0px 0px 34px 0px rgba(0, 0, 0, 0.1)",
             }}
           >
-            <img src="/dist/img/whatsapp.svg" className="img-fluid my-1"></img>
+            <img src="/dist/img/whatsapp.svg" className="img-fluid my-1" style={{ width: "50px" }} alt="Whatsapp" />
             <h2 className="social-media-subtitle mb-0">Whatsapp</h2>
           </div>
         </div>
       </div>
+
       <div className="container">
-        <div className="communication-secation my-md-3 my-5">
-          <h1 className="communication-title mb-0"> Communication. </h1>
+        <div className="communication-secation my-md-3 my-3">
+          <h1 className="communication-title mb-0">Get In Touch With Us</h1>
           <div className="row">
             <div className="col-lg-6 col-12">
               <div className="communication-wrapper" onClick={(e) => handleToggleButton(e, 'work-case-inquiry')}>
                 <div className="communication-content d-flex justify-content-between align-items-center">
                   <h2 className="mb-0">For work progress & case inquiry:</h2>
-                  <i className="fa-solid fa-chevron-left d-none"></i>
-                  <i className="fa-solid fa-chevron-right"></i>
+                  <i className="fa-solid fa-chevron-left"></i>
+                  <i className="fa-solid fa-chevron-right d-none"></i>
                 </div>
               </div>
               <div className="communication-wrapper" onClick={(e) => handleToggleButton(e, 'work-collection')}>

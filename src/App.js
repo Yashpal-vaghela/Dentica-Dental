@@ -26,7 +26,7 @@ function App() {
     "/review",
     "/events",
     "/gallery",
-    "/quick-Links",
+    "/social-links",
     "/terms-and-condition"
   ];
   const isPathValid = (pathname) => {

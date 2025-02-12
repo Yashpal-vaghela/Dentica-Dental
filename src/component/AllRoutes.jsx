@@ -66,7 +66,7 @@ const AllRoutes = () => {
         <Route path="/events/:id" element={<Dentalshow  />} />
         <Route path="/gallery" element={<Gallary />} />
         <Route path="/submit-stl-file" element={<StlFile />} />
-        <Route path="/quick-Links" element={<Socialmedia />} />
+        <Route path="/social-links" element={<Socialmedia />} />
         <Route path="*" element={<NotFound/>}/>
         <Route path="/admin" element={<Login />} />
         <Route path="/terms-and-condition" element={<TermsConditions />} />

@@ -68,41 +68,46 @@ const Socialmedia = () => {
             <h2 className="social-media-subtitle mb-0">Facebook</h2>
           </a>
 
-          <div
+          <a
             className="col-lg-2 col-md-3 col-sm-4 col-4 text-center p-3"
             style={{
               backgroundColor: "#fff",
               borderRadius: "8px",
               boxShadow: "0px 0px 34px 0px rgba(0, 0, 0, 0.1)",
             }}
+            href="https://www.instagram.com/dentica_dental_studio/?igshid=NzZhOTFlYzFmZQ%3D%3D"
+            target="_blank"
           >
             <img src="/dist/img/instrgram.svg" className="img-fluid my-1" style={{ width: "50px" }} alt="Instagram" />
             <h2 className="social-media-subtitle mb-0">Instagram</h2>
-          </div>
+          </a>
 
-          <div
+          <a
             className="col-lg-2 col-md-3 col-sm-4 col-4 text-center p-3"
             style={{
               backgroundColor: "#fff",
               borderRadius: "8px",
               boxShadow: "0px 0px 34px 0px rgba(0, 0, 0, 0.1)",
             }}
+            href="tel:+918530101701"
           >
             <img src="/dist/img/call.svg" className="img-fluid my-1" style={{ width: "50px" }} alt="Phone" />
             <h2 className="social-media-subtitle mb-0">Phone</h2>
-          </div>
+          </a>
 
-          <div
+          <a
             className="col-lg-2 col-md-3 col-sm-4 col-4 text-center p-3"
             style={{
               backgroundColor: "#fff",
               borderRadius: "8px",
               boxShadow: "0px 0px 34px 0px rgba(0, 0, 0, 0.1)",
             }}
+            href="https://api.whatsapp.com/send?phone=918530101701&text=Hello%2C%20Dentica%20Dental%20Studio"
+            target="_blank"
           >
             <img src="/dist/img/whatsapp.svg" className="img-fluid my-1" style={{ width: "50px" }} alt="Whatsapp" />
             <h2 className="social-media-subtitle mb-0">Whatsapp</h2>
-          </div>
+          </a>
         </div>
       </div>
 

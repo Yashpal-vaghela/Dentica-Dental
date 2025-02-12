@@ -90,6 +90,9 @@ const Footer = () => {
               <Link to="/digital-dentistry" onClick={handleNavClick} className="nav-link text-light p-0">
                 <li>Digital-dentistry</li>
               </Link>
+              <Link to="/social-links" onClick={handleNavClick} className="nav-link text-light p-0">
+                <li>Social-Media</li>
+              </Link>
 
 
             </ul>

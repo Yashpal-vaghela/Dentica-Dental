@@ -51,11 +51,11 @@ const Socialmedia = () => {
   // const b = a.filter((i)=>i == id)
   return (
     <div>
-      <div className="social-media-container container">
+      <div className="social-media-container container mt-5">
         <h1 className="social-media-title">Social Media</h1>
         <div className="row my-4 social-media-content">
           <div
-            className="col-lg-3 p-4"
+            className="col-lg-3 col-md-3 col-sm-3 col-4 p-4"
             style={{
               "background-color": "#fff",
               borderRadius: "8px",
@@ -66,7 +66,7 @@ const Socialmedia = () => {
             <h2 className="social-media-subtitle mb-0">Facebook</h2>
           </div>
           <div
-            className="col-lg-3 p-4"
+            className="col-lg-3 col-md-3 col-sm-3 col-4 p-4"
             style={{
               "background-color": "#fff",
               borderRadius: "8px",
@@ -77,7 +77,7 @@ const Socialmedia = () => {
             <h2 className="social-media-subtitle mb-0">Linkdin</h2>
           </div>
           <div
-            className="col-lg-3 p-4"
+            className="col-lg-3 col-md-3 col-sm-3 col-4 p-4"
             style={{
               "background-color": "#fff",
               borderRadius: "8px",
@@ -88,7 +88,7 @@ const Socialmedia = () => {
             <h2 className="social-media-subtitle mb-0">Instagram</h2>
           </div>
           <div
-            className="col-lg-3 p-4"
+            className="col-lg-3 col-md-3 col-sm-3 col-4 p-4"
             style={{
               "background-color": "#fff",
               borderRadius: "8px",
@@ -99,7 +99,7 @@ const Socialmedia = () => {
             <h2 className="social-media-subtitle mb-0">Phone</h2>
           </div>
           <div
-            className="col-lg-3 p-4"
+            className="col-lg-3 col-md-3 col-sm-3 col-4 p-4"
             style={{
               "background-color": "#fff",
               borderRadius: "8px",
@@ -112,10 +112,10 @@ const Socialmedia = () => {
         </div>
       </div>
       <div className="container">
-        <div className="communication-secation my-5">
+        <div className="communication-secation my-md-3 my-5">
           <h1 className="communication-title mb-0"> Communication. </h1>
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-6 col-12">
               <div className="communication-wrapper" onClick={(e) => handleToggleButton(e, 'work-case-inquiry')}>
                 <div className="communication-content d-flex justify-content-between align-items-center">
                   <h2 className="mb-0">For work progress & case inquiry:</h2>
@@ -152,18 +152,20 @@ const Socialmedia = () => {
                 </div>
               </div>
             </div>
-            <div id="work-case-inquiry" className="col-lg-6 communication-content-2 d-none">
+            <div id="work-case-inquiry" className="col-lg-6 col-12 communication-content-2 e work-case-inquiry">
               <h2>For work progress & case inquiry:</h2>
-              <div className="communication-info m-3">
-                <span>1</span>
-                <p className="mb-0">For work progress & case inquiry Hotline:</p>
+              <div className="communication-info mt-2 mb-3 m-sm-5 m-md-5  m-lg-3">
+                <div className="d-flex align-items-center mb-3">
+                  <span className="mr-2">1</span>
+                  <p className="mb-0">For work progress & case inquiry Hotline:</p>
+                </div>
                 <i className="fa-solid fa-phone mr-2"></i> 87584 57536
               </div>
             </div>
 
             <div id="work-collection" className="col-lg-6 communication-content-2 d-none">
               <h2>Work collection & bill issue</h2>
-              <div className="communication-info m-3">
+              <div className="communication-info m-sm-4 m-md-4 m-3">
                 <div className="d-flex align-items-center">
                   <span className="mr-2">1</span>
                   <p className="mb-0">Work collection & bill issue Hotline:</p>
@@ -171,7 +173,7 @@ const Socialmedia = () => {
                 <p className="mb-0">Premjibhai:</p>
                 <i className="fa-solid fa-phone mr-2"></i> 8487838383
               </div>
-              <div className="communication-info m-3">
+              <div className="communication-info m-sm-4 m-md-4 m-3">
                 <div className="d-flex align-items-center">
                   <span className="mr-2">2</span>
                   <p className="mb-0">Work collection & bill issue Hotline:</p>
@@ -183,7 +185,7 @@ const Socialmedia = () => {
 
             <div id="crown-bridge" className="col-lg-6 communication-content-2 d-none">
               <h2>Crown & Bridge</h2>
-              <div className="communication-info m-3">
+              <div className="communication-info m-sm-5 m-md-5 m-3">
                 <div className="d-flex align-items-center">
                   <span className="mr-2">1</span>
                   <p className="mb-0">Crown & Bridge Hotline:</p>
@@ -195,7 +197,7 @@ const Socialmedia = () => {
 
             <div id="implants-crown" className="col-lg-6 communication-content-2 d-none">
               <h2>Implants Crown & Bridge</h2>
-              <div className="communication-info m-3">
+              <div className="communication-info  m-sm-5 m-md-5 m-3">
                 <div className="d-flex align-items-center">
                   <span className="mr-2">1</span>
                   <p className="mb-0">Implants Crown & Bridge Hotline:</p>
@@ -207,7 +209,7 @@ const Socialmedia = () => {
 
             <div id="metal-crown" className="col-lg-6 communication-content-2 d-none">
               <h2>Metal Crown & Bridge</h2>
-              <div className="communication-info m-3">
+              <div className="communication-info  m-sm-5 m-md-5 m-3">
                 <div className="d-flex align-items-center">
                   <span className="mr-2">1</span>
                   <p className="mb-0">Metal Crown & Bridge Hotline:</p>

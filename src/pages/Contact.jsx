@@ -226,7 +226,7 @@ const Contact = () => {
             <div className="contact-page-map-section">
               <div className="contact-page-map-sub">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.643197926084!2d72.847981415625!3d21.219814804678947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04f4aed51f57b%3A0xff6e17b909111bb1!2sDhuna%20House!5e0!3m2!1sen!2sin!4v1681180800!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.3011808750475!2d72.84564231420534!3d21.219902286602988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04ef120e021eb%3A0x38b0e81455dedbe7!2sAdvance%20dental%20Export!5e0!3m2!1sen!2sin!4v1665697964873!5m2!1sen!2sin"
                   width="100%"
                   height="450"
                   style={{ border: "0" }}

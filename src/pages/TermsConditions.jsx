@@ -53,9 +53,6 @@ const TermsConditions = () => {
                 <p class="tacTitle">6. Terms & Conditions of Warranty Are Subject to Change Without Notice</p>
                 <p>Please note that the terms and conditions of this warranty are subject to change without prior notice. It is your responsibility to regularly review the latest version of the warranty terms available on our official website or request a copy from our customer service department.</p>
                 <p>By using our services and accepting the Prosthesis repair or replacement, you agree to be bound by these Terms and Conditions. If you do not agree with any part of these Terms, please refrain from using our services. For any queries or concerns regarding the warranty, please contact our customer service team.</p>
-                <p class="tacupdate">Last updated: 04-August-2023.</p>
-
-
 
             </Container>
         </div>

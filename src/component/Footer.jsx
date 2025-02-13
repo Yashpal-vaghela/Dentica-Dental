@@ -71,7 +71,9 @@ const Footer = () => {
                     </Link>
                   </div>
                 ))}
-
+              <Link to="/digital-dentistry" onClick={handleNavClick} className="nav-link text-light p-0">
+                <li>Digital-dentistry</li>
+              </Link>
             </ul>
           </Col>
 
@@ -81,18 +83,15 @@ const Footer = () => {
             <hr className="footer-hr" />
             <ul className="nav flex-column">
               <Link to="/about" onClick={handleNavClick} className="nav-link text-light p-0"><li className="nav-item">About</li></Link>
-              <Link to="/carrier" onClick={handleNavClick} className="nav-link text-light p-0"><li className="nav-item">Career</li></Link>
-              <Link to="/review" onClick={handleNavClick} className="nav-link text-light p-0"><li className="nav-item">Review</li></Link>
               <Link to="/blog" onClick={handleNavClick} className="nav-link text-light p-0"><li className="nav-item">Blog</li></Link>
               <Link to="/contact" onClick={handleNavClick} className="nav-link text-light p-0"><li className="nav-item">Contact</li></Link>
+              <Link to="/carrier" onClick={handleNavClick} className="nav-link text-light p-0"><li className="nav-item">Career</li></Link>
               <Link to="/gallery" onClick={handleNavClick} className="nav-link text-light p-0"><li className="nav-item">Gallery</li></Link>
+              <Link to="/review" onClick={handleNavClick} className="nav-link text-light p-0"><li className="nav-item">Review</li></Link>
               <Link to="/terms-and-condition" onClick={handleNavClick} className="nav-link text-light p-0"><li className="nav-item">Terms & Conditions</li></Link>
-              <Link to="/digital-dentistry" onClick={handleNavClick} className="nav-link text-light p-0">
-                <li>Digital-dentistry</li>
-              </Link>
-              <Link to="/social-links" onClick={handleNavClick} className="nav-link text-light p-0">
+              {/* <Link to="/social-links" onClick={handleNavClick} className="nav-link text-light p-0">
                 <li>Social-Media</li>
-              </Link>
+              </Link> */}
 
 
             </ul>
@@ -120,7 +119,7 @@ const Footer = () => {
           </Col>
 
           {/* Column 4: Newsletter */}
-          <Col xs={12} sm={6} md={12} lg={3} className="mb-3">
+          <Col xs={12} sm={6} md={12} lg={3} className="mb-2">
             <h5>Get In Touch</h5>
             <hr className="footer-hr" />
             <p><b>Our Location :</b></p>

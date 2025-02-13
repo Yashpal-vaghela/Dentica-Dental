@@ -232,6 +232,7 @@ const Contact = () => {
                   style={{ border: "0" }}
                   allowfullscreen=""
                   loading="lazy"
+                  title="Google Maps Location"
                 ></iframe>
               </div>
             </div>

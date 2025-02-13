@@ -1,11 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 
 const Socialmedia = () => {
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    setLoading(false);
-  }, []);
 
   const handleToggleButton = (e, id) => {
     // Hide all sections
@@ -63,6 +58,7 @@ const Socialmedia = () => {
             }}
             href="https://www.facebook.com/denticadental.dental?mibextid=ZbWKwL"
             target="_blank"
+            rel="noreferrer"
           >
             <img src="/dist/img/facebook.svg" className="img-fluid my-1" style={{ width: "50px" }} alt="Facebook" />
             <h2 className="social-media-subtitle mb-0">Facebook</h2>
@@ -77,6 +73,7 @@ const Socialmedia = () => {
             }}
             href="https://www.instagram.com/dentica_dental_studio/?igshid=NzZhOTFlYzFmZQ%3D%3D"
             target="_blank"
+            rel="noreferrer"
           >
             <img src="/dist/img/instrgram.svg" className="img-fluid my-1" style={{ width: "50px" }} alt="Instagram" />
             <h2 className="social-media-subtitle mb-0">Instagram</h2>
@@ -90,6 +87,7 @@ const Socialmedia = () => {
               boxShadow: "0px 0px 34px 0px rgba(0, 0, 0, 0.1)",
             }}
             href="tel:+918530101701"
+            rel="noreferrer"
           >
             <img src="/dist/img/call.svg" className="img-fluid my-1" style={{ width: "50px" }} alt="Phone" />
             <h2 className="social-media-subtitle mb-0">Phone</h2>
@@ -104,6 +102,7 @@ const Socialmedia = () => {
             }}
             href="https://api.whatsapp.com/send?phone=918530101701&text=Hello%2C%20Dentica%20Dental%20Studio"
             target="_blank"
+            rel="noreferrer"
           >
             <img src="/dist/img/whatsapp.svg" className="img-fluid my-1" style={{ width: "50px" }} alt="Whatsapp" />
             <h2 className="social-media-subtitle mb-0">Whatsapp</h2>

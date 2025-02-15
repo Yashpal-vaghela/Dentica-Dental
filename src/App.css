@@ -227,6 +227,10 @@
     left:0%;
     right:0%;
   }
+  .communication-content-2 h2 {
+    font-size: 12px;
+    line-height: 30px;
+  }
   .communication-secation .row{
     gap:30px;
   }
